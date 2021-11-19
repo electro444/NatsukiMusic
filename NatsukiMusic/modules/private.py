@@ -102,7 +102,7 @@ def map(pos):
             [InlineKeyboardButton(text = '✨ Updates', url=f"https://t.me/{UPDATES_CHANNEL}"),
             [InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/{SUPPORT_GROUP}")],
             [InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}")]
-        ]
+        ],
     else:
         button = [
             [
